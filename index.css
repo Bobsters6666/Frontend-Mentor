@@ -1,0 +1,55 @@
+:root {
+  font-family: 'Outfit', sans-serif;
+
+  --fw-normal: 400;
+  --fw-bold: 700;
+
+  --fs-400: 0.9375rem;
+  --fs-600: 1.25rem;
+
+  --color-neutral: white;
+
+  --color-accent-100: hsl(212, 45%, 89%);
+  --color-accent-400: hsl(220, 15%, 55%);
+  --color-accent-700: hsl(218, 44%, 22%);
+}
+
+body{
+  background-color: var(--color-accent-100);
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  padding: 6rem 0rem;
+  
+}
+
+.container{
+  background-color: var(--color-neutral);
+  padding: 1rem 1rem 2.5rem 1rem;
+  text-align: center;
+  width: 265px;
+  border-radius: 1rem;
+}
+
+.image{
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.text{
+  margin: auto;
+  width: 91%;
+}
+
+.title{
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-600);
+  padding: 1rem 0;
+}
+
+.description{
+  font-size: var(--fs-400);
+  color: var(--color-accent-400)
+}
